@@ -4,8 +4,6 @@ import java.util.Scanner; //To initialize scanners
 
 public class WordBank {
 
-  // This first method implementation is completed for you already.
-  // Do not modify the method signature.
   public static String getAnswerForPuzzleNumber(int puzzleNumber) throws FileNotFoundException {
     // Create a file scanner to read answers.txt.
     Scanner scanner = new Scanner(new File("answers.txt"));
@@ -17,7 +15,6 @@ public class WordBank {
     return scanner.next();
   }
 
-  // Do not modify the method signature.
   public static boolean checkInDictionary(String proposed) throws FileNotFoundException {
 
     //File scanner that will read dictionary.txt
