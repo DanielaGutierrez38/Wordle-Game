@@ -1,6 +1,5 @@
 public class WordleLetter {
 
-	// TODO - implement according to spec
 	//Attributes
 	private char letter;
 	private String color;
@@ -53,8 +52,6 @@ public class WordleLetter {
 	}
 
 
-	// TODO - include the below code back in once rest of class is implemented.
-	// Do not modify this method implementation.
 	public String toString() {
  	// Determine the special characters to add
  	// at the beginning of the String
