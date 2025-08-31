@@ -1,11 +1,5 @@
 import java.io.FileNotFoundException;
 
-/**
- * Tester file.
- *
- * Use this main method to test classes and methods as you create them.
- * Feel free to modify this file as you wish.
- */
 public class Tester {
   public static void main(String[] args) throws FileNotFoundException {
     
@@ -16,8 +10,7 @@ public class Tester {
     System.out.println(WordBank.getAnswerForPuzzleNumber(0)); // bused
     System.out.println(WordBank.getAnswerForPuzzleNumber(1)); // plumb
 
-    // TODO add tests for Wordle Letter
-
+    //Tests
     WordleLetter letter = new WordleLetter('b');//Initialize WordleLetter
 
     letter.setColor("yellow");
@@ -25,8 +18,6 @@ public class Tester {
     System.out.println(letter.isColorSet()); //true
 
     System.out.println(letter.isGreen());//false
-
-    // TODO add tests for Wordle Game
 
     WordleGame game = new WordleGame(3); //scold
 
@@ -103,7 +94,7 @@ public class Tester {
 
     }
 
-    // TODO add tests for Main
+    //Tests for main
 
     WordleGame game2 = new WordleGame(0);
 
