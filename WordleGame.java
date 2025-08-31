@@ -174,7 +174,6 @@ public class WordleGame {
 
   }
 
-  // Do not modify this method implementation.
   public String toString() {
     // result will be used to build the full answer String
     String result = "";
